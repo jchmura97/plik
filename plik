@@ -1,3 +1,11 @@
+def funkcja1(number):
+
+    if number < 0:
+        return -number
+    else:
+        return number
+
+
 print("hello")
 
 int_list = [0, 1, 2, 3, 4]
@@ -20,3 +28,6 @@ test = 5
 result=7 if test==4 else 10
 
 print(result)
+
+zwrotka = funkcja1(-10)
+print(zwrotka)
