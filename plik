@@ -1,0 +1,13 @@
+int_list=[0,1,2,3,4]
+
+copy_list=int_list[:]
+
+print(copy_list)
+
+tuple=(9)
+print(type(tuple))
+
+test=4
+result=7 if test==4 else 10
+
+print(result)
