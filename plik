@@ -1,13 +1,22 @@
-int_list=[0,1,2,3,4]
+print("hello")
 
-copy_list=int_list[:]
+int_list = [0, 1, 2, 3, 4]
 
-print(copy_list)
+lista_nowa = int_list
 
-tuple=(9)
-print(type(tuple))
+lista_kopia = int_list[:]
 
-test=4
+int_list[3] = 'cosnowego'
+
+print(int_list)
+print(lista_nowa)
+print(lista_kopia)
+
+krotka = (9,)
+print(type(krotka))
+
+test = 5
+
 result=7 if test==4 else 10
 
 print(result)
